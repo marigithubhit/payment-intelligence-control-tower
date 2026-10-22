@@ -1,0 +1,9 @@
+package com.mari.iso20022.investigation.dto;
+
+public enum EvidenceType {
+    HISTORICAL_TRANSACTION,
+    HISTORICAL_BENEFICIARY,
+    HISTORICAL_AMOUNT,
+    HISTORICAL_FAILURE_PATTERN,
+    VALIDATION_FINDING
+}
